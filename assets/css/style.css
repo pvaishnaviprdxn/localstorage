@@ -115,6 +115,7 @@ header:after {
     content: "";
     background: linear-gradient(to right,rgb(54, 195, 255),rgb(250, 164, 5));
 }
+
 h1 {
     padding: 20px 0;
     background:  linear-gradient(to bottom,rgb(54, 195, 255),rgb(250, 164, 5));
@@ -130,10 +131,6 @@ h1 {
     font-size: 40px;
     font-weight: bold;
 }
-
-
-
-
 
 /*=================================
   Header styling ends here
@@ -198,6 +195,42 @@ label {
     -o-transition: .4s ease-in-out;
 }
 
+.list{
+    width:  80%;
+    margin: 30px auto;
+}
+
+.list2{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.list2 li{ 
+    display: block;
+    margin: 5px;
+    padding: 0;
+ }
+
+.list2 button{ 
+    margin-top: 5px;
+    margin-right: 10px;
+    
+}
+
+.list2 a{
+    padding: 4.8px 20px;
+    border: 1px solid;
+    border-color: black;
+    color: red;
+}
+
+span{
+    padding: 5px 20px;
+    border: 1px solid;
+}
+
+.heading {margin: 5px; }
 
 
 
